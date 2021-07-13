@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "gatsby": "^3.9.0",
     "gatsby-plugin-gatsby-cloud": "^2.9.0",
     "gatsby-plugin-image": "^1.9.0",
@@ -17,10 +18,15 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "prettier": "2.3.2"
+    "autoprefixer": "^10.3.1",
+    "gatsby-plugin-postcss": "^4.9.0",
+    "postcss": "^8.3.5",
+    "prettier": "2.3.2",
+    "tailwindcss": "^2.2.4"
   },
   "keywords": [
     "gatsby"
