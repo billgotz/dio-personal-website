@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Socials from "./socials"
 
 const Header = () => (
-  <header className="p-12">
+  <header className="p-12 z-50">
     <div className="flex flex-row justify-between">
       <h1 className="m-0">
         <Link to="/">

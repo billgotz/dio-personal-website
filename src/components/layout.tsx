@@ -8,10 +8,10 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
+import Footer from "./footer"
 
-const Layout = ({ children }) => {
+function Layout({ children }) {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -22,13 +22,28 @@ const Layout = ({ children }) => {
     }
   `)
 
+  const scrollRef = React.useRef(null)
+
+  React.useEffect(() => {
+    import("locomotive-scroll").then(locomotiveModule => {
+      const scroll = new locomotiveModule.default({
+        el: scrollRef.current,
+        smooth: true,
+        smoothMobile: false,
+      })
+    })
+  }, [])
+
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div>
-        <main>{children}</main>
-      </div>
-    </>
+    <div ref={scrollRef} data-scroll-container data-scroll-section>
+      <Header
+        data-scroll
+        siteTitle={data.site.siteMetadata?.title || `Title`}
+      />
+
+      <main data-scroll>{children}</main>
+      <Footer />
+    </div>
   )
 }
 

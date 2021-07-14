@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       lineHeight: {
         headings: "72px",
+
+        backgroundImage: theme => ({
+          "error-404-page": "url('./images/404.png')",
+        }),
       },
     },
   },
