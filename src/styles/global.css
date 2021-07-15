@@ -151,3 +151,19 @@ html.has-scroll-dragging {
   right: auto;
   bottom: 0;
 }
+
+.img-hide {
+  display: none;
+}
+
+.link-show {
+  position: relative;
+}
+
+.link-show:hover + .img-hide {
+  transition: all 5s ease-out 2s;
+  display: block;
+  color: red;
+  position: absolute;
+  width: 250px;
+}
