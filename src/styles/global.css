@@ -154,6 +154,7 @@ html.has-scroll-dragging {
 
 .img-hide {
   display: none;
+  transition: all 5s ease-out 2s;
 }
 
 .link-show {
@@ -161,7 +162,6 @@ html.has-scroll-dragging {
 }
 
 .link-show:hover + .img-hide {
-  transition: all 5s ease-out 2s;
   display: block;
   color: red;
   position: absolute;

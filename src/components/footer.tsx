@@ -12,7 +12,7 @@ export default function Footer() {
       <Link to="/work" className={`${buttonStyle} text-6xl font-bold`}>
         My Work
       </Link>
-      <ul className="flex flex-row gap-4 text-2xl">
+      <ul className="flex flex-row gap-8 text-2xl">
         <Socials />
       </ul>
     </div>

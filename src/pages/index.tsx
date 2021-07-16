@@ -12,7 +12,7 @@ function IndexPage() {
   return (
     <Layout>
       <Seo title="Home" />
-      <div className="p-40 inline-flex flex-col gap-12 h-screen">
+      <div className="px-40 pb-40 inline-flex flex-col justify-center gap-12 h-screen">
         <h1 className="font-bold text-8xl max-w-max whitespace-pre-wrap">
           I am a graphic/web designer, 3D
           {"\n"}and Photoshop artist from Greece. Currently working freelance.
