@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Dionisis Gotzagiannis`,
     //TODO write description
-    description: ``,
+    description: `Personal website of Dionisis Gkotzagiannis. Graphic Designer | Web Designer | 3D Artist | Photoshop Artist`,
     author: `@billgotz`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://dio.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,13 +22,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Dionisis Gkotzagiannis Personal Website`,
+        short_name: `dio personal`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#000`,
+        theme_color: `#000`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,
