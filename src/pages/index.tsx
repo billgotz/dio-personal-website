@@ -30,8 +30,8 @@ function IndexPage() {
         </div>
       </div>
 
-      <div className="bg-gray-900 rounded grid grid-cols-2 px-12 py-10">
-        <div className="p-10 text-white grid grid-cols-2 justify-items-center items-baseline">
+      <div className="bg-black bg-waves bg-bottom bg-no-repeat grid grid-cols-1 px-12 py-10 justify-items-center">
+        <div className="p-10 text-white grid gap-8 justify-items-center items-baseline">
           <h3 className="about-headings font-bold text-xl leading-headings border-b border-white">
             Work Experience
           </h3>
@@ -51,13 +51,21 @@ function IndexPage() {
           </ul>
         </div>
 
-        <div className="p-10 text-white grid grid-cols-2 justify-items-center items-baseline">
+        <div className="p-10 text-white grid gap-8 justify-items-center items-baseline">
           <h3 className="about-headings font-bold text-xl leading-headings border-b border-white">
             Recognition
           </h3>
-          <a href="99designs.com/" className="underline show-img">
-            Nominee for <span>Best Print Design 2021</span> by 99Designs Awards
-          </a>
+          <span className="show-img">
+            Nominee for{" "}
+            <a
+              href="https://99designs.com/best-design-awards/2021/best-print-design"
+              target="_blank"
+              className="underline font-bold"
+            >
+              Best Print Design 2021
+            </a>{" "}
+            by 99Designs Awards
+          </span>
         </div>
       </div>
     </Layout>

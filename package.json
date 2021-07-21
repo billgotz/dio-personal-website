@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
+    "@tailwindcss/forms": "^0.3.3",
     "gatsby": "^3.9.0",
     "gatsby-plugin-gatsby-cloud": "^2.9.0",
     "gatsby-plugin-image": "^1.9.0",

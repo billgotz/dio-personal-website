@@ -167,3 +167,9 @@ html.has-scroll-dragging {
   position: absolute;
   width: 250px;
 }
+
+.neum {
+  border-radius: 50px;
+  background: #111827;
+  box-shadow: 20px 20px 61px #0d121e, -20px -20px 61px #151e30;
+}
