@@ -1,1 +1,1 @@
-page deployed at: https://dio.gatsbyjs.io/
+page deployed at: https://diogotz.com/
